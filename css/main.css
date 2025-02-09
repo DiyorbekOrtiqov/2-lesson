@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 10px auto;
+  padding: 0 40px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_img {
+  display: block;
+}
+
+.navbar_list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar_list_item {
+  margin: 0 10px;
+}
+
+.navbar_link {
+  text-decoration: none;
+  color: gray;
+}
+
+.navbar_home {
+  color: black;
+}
+
+/* bu yerdan  main  css boshlandi */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 140px;
+}
+
+.hero_texts {
+  width: 445px;
+  height: 338px;
+}
+
+.hero_texts h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero_texts p {
+  color: gray;
+  font-size: 21px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.hero_texts div {
+  margin-top: 48px;
+}
+
+.hero_btn {
+  padding: 15px 30px;
+  color: white;
+  background-color: #458ff6;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*  services  section  css boshlandi */
+
+.services {
+  margin-top: 172px;
+}
+
+.services_text h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.services_text hr {
+  width: 56px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 26px;
+  margin-bottom: 36px;
+}
+
+.services_text p {
+  width: 952px;
+  margin: auto;
+  text-align: center;
+  color: #7d7987;
+  font-size: 18px;
+}
+
+.services_dad_box {
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 78px;
+}
+
+.services_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.services_card {
+  width: 350px;
+  height: 354px;
+  border-radius: 15px;
+  padding: 62px 37px;
+  background-color: rgba(218, 211, 211, 0.18);
+}
+
+.services_card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.services_card p {
+  width: 261px;
+  margin-top: 10px;
+  color: #7d7987;
+  font-size: 16px;
+}
+
+.box_second {
+  margin-top: 37px;
+}
+
+/*  Learn_more button */
+
+.Learn_more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 71px;
+}
+
+.Learn_more_btn {
+  padding: 15px 25px;
+  text-decoration: none;
+  border: 2px solid #458ff6;
+  color: #458ff6;
+  width: 200px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.button_start {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-top: 71px;
+}
+
+/* customers */
+
+.customer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 251px;
+}
+
+.customer_box {
+  width: 1120px;
+  height: 420px;
+  border-radius: 20px;
+  background: linear-gradient(#67c3f3, #5a98f2);
+}
+
+.customer_text {
+}
+
+.customer_text h2 {
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 61px;
+}
+
+.customer_text hr {
+  width: 52px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.customer_img_text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 72px;
+}
+
+.customer_img_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.customer_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.customer_imgtex {
+  width: 200px;
+  color: white;
+}
+
+.customer_imgtex h4 {
+  margin-top: 5px;
+}
+
+.customer_info {
+  width: 420px;
+  font-weight: 400;
+  font-size: 19px;
+  color: white;
+}
+
+/* Footer  */
+
+.footer_bg {
+  width: 100%;
+  height: 432px;
+  background: linear-gradient(#67c3f3, #5a98f2);
+}
+
+.footer_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer_box div {
+  margin: 0 40px;
+  margin-top: 118px;
+  color: white;
+}
+
+.footer_box div ul {
+  list-style: none;
+}
+
+.Footer_main_text {
+  font-size: 38px;
+  font-weight: 700;
+}
